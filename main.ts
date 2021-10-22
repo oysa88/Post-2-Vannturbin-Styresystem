@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function () {
     activateTurbine()
 })
 function win () {
-    radio.sendString("E")
+    radio.sendString("I")
 }
 radio.onReceivedString(function (receivedString) {
     activity = true
